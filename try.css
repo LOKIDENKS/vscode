@@ -1,0 +1,219 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #383838;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+}
+
+header nav li {
+    margin: 0 15px; /* Adjust margin for spacing */
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.game-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+.game-buttons button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    gap: 10px;
+}
+
+.game-buttons button img {
+    width: 20px; /* Set the width of the image */
+    height: 20px; /* Set the height of the image */
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.game-buttons button:hover {
+    background-color: #555;
+}
+
+.vp {
+    margin-top: 20px;
+    width: 100%; /* Full width for better responsiveness */
+}
+
+#vp-container {
+    display: none;
+}
+
+.vp h2 {
+    text-align: center; /* Center the heading */
+}
+
+.vp ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center;
+}
+
+.vp li {
+    margin: 10px; /* Reduced margin for better spacing */
+    width: calc(100% - 20px); /* Full width for smaller screens */
+    max-width: 200px; /* Maximum width for larger screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vp h3 {
+    font-size: 16px; /* Adjusted font size */
+    margin-top: 10px;
+}
+
+.vp p {
+    font-size: 14px;
+    color: #f32d2d;
+    text-align: center; /* Center the price text */
+}
+
+.vp button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.vp button:hover {
+    background-color: #555;
+}
+
+.mb {
+    margin-top: 20px;
+    width: 100%; /* Full width for better responsiveness */
+}
+
+#mb-container {
+    display: none;
+}
+
+.mb h2 {
+    text-align: center; /* Center the heading */
+}
+
+.mb ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    justify-content: center;
+}
+
+.mb li {
+    margin: 10px; /* Reduced margin for better spacing */
+    width: calc(100% - 20px); /* Full width for smaller screens */
+    max-width: 200px; /* Maximum width for larger screens */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mb h3 {
+    font-size: 16px; /* Adjusted font size */
+    margin-top: 10px;
+}
+
+.mb p {
+    font-size: 14px;
+    color: #f32d2d;
+    text-align: center; /* Center the price text */
+}
+
+.mb button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.mb button:hover {
+    background-color: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em;
+    background-color: #383838;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    /* Remove absolute positioning */
+    position: relative;
+    bottom: auto;
+    left: auto;
+    width: 100%;
+}
+
+#checkout-container {
+    clear: both;
+  }
+#checkout-btn {
+    float: right;
+    padding: 15px 30px;
+    font-size: 18px;
+  }
+  #checkout-btn {
+    float: right;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #checkout-btn:hover {
+    background-color: #555;
+  }

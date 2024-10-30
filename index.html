@@ -1,0 +1,104 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KWIDITS</title>
+    <link rel="stylesheet" href="try.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=AUuQI6hubJdS4nIQMZog7lmK-Ijyh1Oh4TgBy3LK66Puh8gkduYAJSpCCWleFembQNtR75IkgMQUoUBQ"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="game-selection">
+            <div class="game-buttons">
+                <a href="#" id="valorant-btn">
+                <img src="Valorant.jpg" alt="Valorant" />
+                </a>
+                <a href="#" id="mobile-legends-btn">
+                <img src="MB.jpg" alt="Mobile Legends" />
+                </a>
+            </div>
+        </section>
+        <section class="vp" id="vp-container">
+            <h2>Select Recharge</h2>
+            <ul>
+                <li>
+                    <h3>475 VP</h3>
+                    <p>Price: 5$</p>
+                    <button data-price="5" data-quantity="475">Buy Now</button>
+                </li>
+                <li>
+                    <h3>1000 VP</h3>
+                    <p>Price: 8$</p>
+                    <button data-price="8" data-quantity="1000">Buy Now</button>
+                </li>
+                <li>
+                    <h3>3650 VP</h3>
+                    <p>Price: 25$</p>
+                    <button data-price="25" data-quantity="3650">Buy Now</button>
+                </li>
+                <li>
+                    <h3>5350 VP</h3>
+                    <p>Price: 200$</p>
+                    <button data-price="200" data-quantity="5350">Buy Now</button>
+                </li>
+                <li>
+                    <h3>11000 VP</h3>
+                    <p>Price: 450$</p>
+                    <button data-price="450" data-quantity="11000">Buy Now</button>
+                </li>
+            </ul>
+        </section>
+        <section class="mb" id="mb-container">
+             <h2>Mobile Legends</h2>
+             <ul>
+                <li>
+                    <h3>60 Diamonds</h3>
+                    <p>Price: 1$</p>
+                    <button data-price="1" data-quantity="60">Buy Now</button>
+                </li>
+                <li>
+                    <h3>120 Diamonds</h3>
+                    <p>Price: 2$</p>
+                    <button data-price="2" data-quantity="120">Buy Now</button>
+                </li>
+                <li>
+                    <h3>256 Diamonds</h3>
+                    <p>Price: 5$</p>
+                    <button data-price="5" data-quantity="256">Buy Now</button>
+                </li>
+                <li>
+                    <h3>532 Diamonds</h3>
+                    <p>Price: 10$</p>
+                    <button data-price="10" data-quantity="532">Buy Now</button>
+                </li>
+                <li>
+                    <h3>1570 Diamonds</h3>
+                    <p>Price: 30$</p>
+                    <button data-price="30" data-quantity="1570">Buy Now</button>
+                </li>
+                <li>
+                    <h3>2020 Diamonds</h3>
+                    <p>Price: 50$</p>
+                    <button data-price="50" data-quantity="2020">Buy Now</button>
+                </li>
+             </ul>
+         </section>
+    </main>
+    <div id="checkout-container"></div>
+    <footer>
+        <p>&copy; 2024 Purchase KWIDITS</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
