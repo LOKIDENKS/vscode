@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,7 +7,7 @@
     <link rel="stylesheet" href="try.css">
     <script src="https://www.paypal.com/sdk/js?client-id=AUuQI6hubJdS4nIQMZog7lmK-Ijyh1Oh4TgBy3LK66Puh8gkduYAJSpCCWleFembQNtR75IkgMQUoUBQ"></script>
 </head>
-<body>
+<body class="default-bg">
     <header>
         <nav>
             <ul>
@@ -19,40 +18,41 @@
         </nav>
     </header>
     <main>
+        <label for="topup-select">Select Top Up:</label>
         <section class="game-selection">
             <div class="game-buttons">
                 <a href="#" id="valorant-btn">
-                <img src="Valorant.jpg" alt="Valorant" />
+                <img src="Valorant.jpg" alt="Valorant Logo" />
                 </a>
                 <a href="#" id="mobile-legends-btn">
-                <img src="MB.jpg" alt="Mobile Legends" />
+                <img src="MB.jpg" alt="Mobile Legends Logo" />
                 </a>
             </div>
         </section>
         <section class="vp" id="vp-container">
-            <h2>Select Recharge</h2>
-            <ul>
-                <li>
+            <h2>Valorant</h2>
+            <ul class="vp-order-list">
+                <li class="vp-order-item">
                     <h3>475 VP</h3>
                     <p>Price: 5$</p>
                     <button data-price="5" data-quantity="475">Buy Now</button>
                 </li>
-                <li>
+                <li class="vp-order-item">
                     <h3>1000 VP</h3>
                     <p>Price: 8$</p>
                     <button data-price="8" data-quantity="1000">Buy Now</button>
                 </li>
-                <li>
+                <li class="vp-order-item">
                     <h3>3650 VP</h3>
                     <p>Price: 25$</p>
                     <button data-price="25" data-quantity="3650">Buy Now</button>
                 </li>
-                <li>
+                <li class="vp-order-item">
                     <h3>5350 VP</h3>
                     <p>Price: 200$</p>
                     <button data-price="200" data-quantity="5350">Buy Now</button>
                 </li>
-                <li>
+                <li class="vp-order-item">
                     <h3>11000 VP</h3>
                     <p>Price: 450$</p>
                     <button data-price="450" data-quantity="11000">Buy Now</button>
@@ -61,33 +61,33 @@
         </section>
         <section class="mb" id="mb-container">
              <h2>Mobile Legends</h2>
-             <ul>
-                <li>
+             <ul class="mb-order-list">
+                <li class="mb-order-item">
                     <h3>60 Diamonds</h3>
                     <p>Price: 1$</p>
                     <button data-price="1" data-quantity="60">Buy Now</button>
                 </li>
-                <li>
+                <li class="mb-order-item">
                     <h3>120 Diamonds</h3>
                     <p>Price: 2$</p>
                     <button data-price="2" data-quantity="120">Buy Now</button>
                 </li>
-                <li>
+                <li class="mb-order-item">
                     <h3>256 Diamonds</h3>
                     <p>Price: 5$</p>
                     <button data-price="5" data-quantity="256">Buy Now</button>
                 </li>
-                <li>
+                <li class="mb-order-item">
                     <h3>532 Diamonds</h3>
                     <p>Price: 10$</p>
                     <button data-price="10" data-quantity="532">Buy Now</button>
                 </li>
-                <li>
+                <li class="mb-order-item">
                     <h3>1570 Diamonds</h3>
                     <p>Price: 30$</p>
                     <button data-price="30" data-quantity="1570">Buy Now</button>
                 </li>
-                <li>
+                <li class="mb-order-item">
                     <h3>2020 Diamonds</h3>
                     <p>Price: 50$</p>
                     <button data-price="50" data-quantity="2020">Buy Now</button>
@@ -95,7 +95,7 @@
              </ul>
          </section>
     </main>
-    <div id="checkout-container"></div>
+    <div id="checkout-container"></div> 
     <footer>
         <p>&copy; 2024 Purchase KWIDITS</p>
     </footer>
